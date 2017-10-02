@@ -30,8 +30,3 @@ resp.forEach(function(item){
    	$('<li>').text('Population: ' + item.population).appendTo(countriesList);
 });
 }
-
-
-
-
-
