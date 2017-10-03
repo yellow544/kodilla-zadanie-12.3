@@ -8,15 +8,15 @@ function searchCountries() {
 if(!countryName.length) countryName = 'Poland';
 
 $.ajax({
-  		url: url + countryName,
-  		method: 'GET',
-  		success: showCountriesList,
-  		error: function errorURL (resp) {
-  			countriesList.empty();
-  		if(resp.status === 404){
-  			alert('Error - No data found');
-  		}
-  		}
+     url: url + countryName,
+     method: 'GET',
+     success: showCountriesList,
+     error: function errorURL (resp) {
+     countriesList.empty();
+     if(resp.status === 404){
+     alert('Error - No data found');
+     }
+     }
 });
 }
 
