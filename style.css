@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background-image: url("https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+
+button, input {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2, li {
+  color: white;
+  font-size: 35px;
+}
+
+.country {
+  color: red;
+}
+
+
